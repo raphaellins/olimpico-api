@@ -1,20 +1,18 @@
 
 <b>Olimpico API</b>
 <br><br>
-API Desenvolvida com Spring Boot por ser um framework que auxilia no desenvolvimento rápido com o Spring, facilitando toda a configuraçao que é necessaria para utilizar o Spring
+API Desenvolvida com Spring Boot por ser um projeto da Spring que auxilia no desenvolvimento rápido com o framework Spring, facilitando toda a configuraçao que é necessaria para utilizar-lo
 <br><br>
 <b>Nesse projeto utilizei recursos como</b>:<br>
 <br>
-Um uso simples com Listeners e Events<br>
+Exemplo de uso de Listeners e Events<br>
 Bean validation<br>
-Melhor tratamento de exceções com uso do ResponseEntityExceptionHandler e MessageResource<br>
+Tratamento de exceções com uso do ResponseEntityExceptionHandler e MessageResource<br>
 HQSQL como banco embarcado<br>
 MockMvc para teste unitário de requisições HTTP REST<br>
 
 
-Ao iniciar a API, é feita uma carga inicial de dados que encontra-se no arquivo <b>import.sql</b> <br>
-
-import.sql
+Ao iniciar a API, é feita uma carga inicial de dados que encontra-se no arquivo <b><h4>import.sql<h4></b> <br>
 
 Exemplo de POST para <b>"/competicoes"</b>:
 <br>
