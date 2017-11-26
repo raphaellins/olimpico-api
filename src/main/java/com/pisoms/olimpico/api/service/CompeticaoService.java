@@ -185,7 +185,7 @@ public class CompeticaoService {
 	}
 
 	/**
-	 * Atualiza todos os dados da competicao e salva, validando os dados
+	 * Atualiza todos os dados da competicao e salva, validando os dados antes
 	 * 
 	 * @param codigo
 	 * @param competicao

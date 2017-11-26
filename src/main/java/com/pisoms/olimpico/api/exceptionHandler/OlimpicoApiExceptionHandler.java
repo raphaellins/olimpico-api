@@ -109,7 +109,7 @@ public class OlimpicoApiExceptionHandler extends ResponseEntityExceptionHandler 
 	}
 
 	/**
-	 * Trata excessoes relacionadas quando tentar deletar um recurso que nao existe
+	 * Trata excessoes relacionadas quando tentar executar uma operacao em um recurso que nao existe
 	 * 
 	 * @param ex
 	 * @param request
