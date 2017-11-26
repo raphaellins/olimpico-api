@@ -9,6 +9,6 @@ import com.pisoms.olimpico.api.model.Competidor;
 public interface CompetidorRepository extends JpaRepository<Competidor, Integer>{
 	
 	@Query("select c from Competidor c where c.nome = :nome_competidor")
-	public Competidor findByNome(@Param("nome_competidor") String nomeLocal);
+	public Competidor findByNome(@Param("nome_competidor") String nomeCompetidor);
 
 }

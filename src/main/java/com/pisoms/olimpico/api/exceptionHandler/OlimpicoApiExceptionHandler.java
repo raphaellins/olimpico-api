@@ -29,6 +29,10 @@ import com.pisoms.olimpico.api.service.exception.RegistroIdenticoException;
 import com.pisoms.olimpico.api.service.exception.TempoCompeticaoException;
 import com.pisoms.olimpico.api.service.exception.UltrapassaLimiteCompeticaoLocalException;
 
+/**
+ * Classe que trata algumas excessões e monta uma melhor mensagem
+ *
+ */
 @ControllerAdvice
 public class OlimpicoApiExceptionHandler extends ResponseEntityExceptionHandler {
 
@@ -109,7 +113,8 @@ public class OlimpicoApiExceptionHandler extends ResponseEntityExceptionHandler 
 	}
 
 	/**
-	 * Trata excessoes relacionadas quando tentar executar uma operacao em um recurso que nao existe
+	 * Trata excessoes relacionadas quando tentar executar uma operacao em um
+	 * recurso que nao existe
 	 * 
 	 * @param ex
 	 * @param request

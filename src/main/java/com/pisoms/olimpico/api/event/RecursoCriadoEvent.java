@@ -4,6 +4,9 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.context.ApplicationEvent;
 
+/**
+ * Evento chamado quando algum recurso é criado com sucesso
+ */
 public class RecursoCriadoEvent extends ApplicationEvent{
 
 	private static final long serialVersionUID = 1L;
