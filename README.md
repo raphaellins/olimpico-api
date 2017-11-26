@@ -23,7 +23,7 @@ Exemplo de POST para <b>"/competicoes"</b>:
   "modalidade":{"id":9},<br>
   "local":{"id":4},<br>
   "dataInicio":"2020-07-15 10:00",<br>
-  "dataTermino":"2020-07-15 11:00",v
+  "dataTermino":"2020-07-15 11:00",<br>
   "competidorA":{"id":1},<br>
   "competidorB":{"id":5},<br>
   "etapa":"ELIMINATORIAS"<br>
