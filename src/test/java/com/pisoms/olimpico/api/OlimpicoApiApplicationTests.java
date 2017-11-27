@@ -142,7 +142,6 @@ public class OlimpicoApiApplicationTests {
 		ldt = LocalDateTime.of(2020, 7, 15, 10, 25);
 		Date finishDate = Date.from(ldt.atZone(ZoneOffset.UTC).toInstant());
 
-		// Convert request object to json
 		ObjectMapper mapper = new ObjectMapper();
 
 		CompeticaoRequest competicaoRequest = new CompeticaoRequest();
@@ -169,7 +168,6 @@ public class OlimpicoApiApplicationTests {
 		ldt = LocalDateTime.of(2020, 7, 15, 10, 45);
 		Date finishDate = Date.from(ldt.atZone(ZoneOffset.UTC).toInstant());
 
-		// Convert request object to json
 		ObjectMapper mapper = new ObjectMapper();
 
 		CompeticaoRequest competicaoRequest = new CompeticaoRequest();
@@ -196,8 +194,8 @@ public class OlimpicoApiApplicationTests {
 		ldt = LocalDateTime.of(2020, 7, 20, 19, 45);
 		Date finishDate = Date.from(ldt.atZone(ZoneOffset.UTC).toInstant());
 
-		// Convert request object to json
 		ObjectMapper mapper = new ObjectMapper();
+		
 		CompeticaoRequest competicaoRequest = new CompeticaoRequest();
 		competicaoRequest.setModalidade(new Modalidade(4));
 		competicaoRequest.setLocal(new Local(5));
